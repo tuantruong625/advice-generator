@@ -102,7 +102,11 @@ function App() {
 
   const Loader = () => {
     const LoaderWrapper = styled('div')`
-      padding: 4rem;
+      padding: 3rem 3rem 0 3rem;
+      color: hsl(193, 38%, 86%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
     `
     return (
       <LoaderWrapper>
