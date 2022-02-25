@@ -69,11 +69,15 @@ const Button = styled('button')`
   display: flex;
   justify-content: center;
   align-items: center;
-
+  transition: all 0.3s ease-in-out 0s;
+  transform: rotate(0);
+  
   :hover {
-    box-shadow: 0px 8px 15px hsl(150, 100%, 66%);
+    box-shadow: 0px 5px 12px hsl(150, 100%, 66%);
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
+    transition: 0.2s;
+    transform: rotate(45deg);
   }
 `
 type Advice = {
